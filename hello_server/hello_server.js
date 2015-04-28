@@ -18,5 +18,5 @@ app.get('/jedi/:firstname/:lastname', function(request, response) {
     response.send(["Hello", last.substring(0,3) + first.substring(0,2), ].join(" "));
 });
 
-app.listen(8080, '0.0.0.0');
+app.listen(8080);
 

@@ -25,7 +25,7 @@ Echo_Server.prototype.get_server = function(){
 }
 
 Echo_Server.prototype.listen_server = function(){
-  this.server.listen(8080, '0.0.0.0');
+  this.server.listen(8080);
 }
 
 exports.Echo_Server = Echo_Server;

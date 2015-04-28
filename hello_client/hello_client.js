@@ -1,6 +1,6 @@
 var unirest = require('unirest');
 
-unirest.get('http://0.0.0.0:8080/headers')
+unirest.get('http://localhost:8080/headers')
        .end(function(response) {
     console.log('Status:', response.statusCode);
     console.log('Headers: ', response.headers);
